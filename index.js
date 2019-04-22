@@ -19,7 +19,7 @@ program
 
 program
     .command('list')
-    .action((identifier) => {
+    .action(() => {
         var bookmarks = store.list();
         console.log(`CATEGORY | NAME | URL`);
         bookmarks.forEach(bookmark => {
