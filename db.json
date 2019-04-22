@@ -1,0 +1,29 @@
+{
+  "bookmarks": [
+    {
+      "group": "testgroup",
+      "name": "google",
+      "url": "https://www.google.com"
+    },
+    {
+      "group": "testgroup",
+      "name": "github",
+      "url": "https://github.com"
+    },
+    {
+      "group": "testgroup",
+      "name": "monkey",
+      "url": "https://monkeys.com"
+    },
+    {
+      "group": "pizza",
+      "name": "choco",
+      "url": "https://github.com"
+    },
+    {
+      "group": "pizza",
+      "name": "jalapeno",
+      "url": "https://monkeys.com"
+    }
+  ]
+}

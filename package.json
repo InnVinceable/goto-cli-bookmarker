@@ -1,0 +1,32 @@
+{
+  "name": "goto-cli-bookmarker",
+  "version": "1.0.0",
+  "description": "CLI bookmark manager. Open bookmarks or groups of bookmarks via commandline for those who like to stick to keyboard as much as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnVinceable/goto-cli-bookmarker.git"
+  },
+  "keywords": [
+    "bookmarks",
+    "cli",
+    "command",
+    "line",
+    "manager",
+    "browser"
+  ],
+  "author": "Vincent de Gois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnVinceable/goto-cli-bookmarker/issues"
+  },
+  "homepage": "https://github.com/InnVinceable/goto-cli-bookmarker#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "lowdb": "^1.0.0",
+    "opn": "^6.0.0"
+  }
+}
