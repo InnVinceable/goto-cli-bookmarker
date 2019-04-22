@@ -3,7 +3,6 @@ const opn = require('opn');
 var program = require('commander');
  
 program
-    .command('goto <identifier>')
     .action((identifier) => {
         // check if any groups
         var bookmarks = store.list(identifier);
@@ -15,6 +14,12 @@ program
             var bookmark = store.get(identifier);
             opn(bookmark.url).catch(err => { console.error(err) });
         }
+    })
+
+program
+    .command('add <group> <name> <url>')
+    .action((group, name, url) => {
+        store.add({group, name, url});
     })
 
 program
